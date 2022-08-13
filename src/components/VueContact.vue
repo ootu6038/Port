@@ -25,37 +25,5 @@
 
 <script>
 export default {
-    //<v-card class="mx-auto mt-16 py-16 pr-10" max-width="700" height="300"></v-card>
 }
 </script>
-
-
-<!--<template>
-<v-container>
-        <v-row class="mr-15">
-        <v-card class="mx-auto mt-16 pt-16" width="1000" height="300">
-            <v-card-item>
-                <div>
-                    <div class="text-h6 mt-1 mb-4 pb-0">
-                        藤原
-                    </div>
-                    <div class="text-h5 mb-4">
-                        ご連絡はこちらのアドレスにお願い致します
-                    </div>
-                    <div class="text-h6">ootu6038@gmail.com</div>
-                </div>
-            </v-card-item>
-        </v-card>
-           </v-row>
-      </v-container>
-</template>
-
-<style scoped>
-</style>
-
-<script>
-  export default {
-    //<v-card class="mx-auto mt-16 py-16 pr-10" max-width="700" height="300"></v-card>
-  }
-</script>
-    -->

@@ -18,7 +18,6 @@
             </v-container>
         </v-app-bar>
     </v-card>
-
 </template>
 
 <script>
@@ -38,9 +37,6 @@ export default {
     }),
 }
 </script>
-
-<style>
-</style>
 
 
         

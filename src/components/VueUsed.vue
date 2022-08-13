@@ -14,21 +14,35 @@
                 <v-expansion-panel-title class="dotabs" expand-icon="mdi-menu-down" color="indigo">
                     Vue3
                 </v-expansion-panel-title>
-                <v-expansion-panel-text>VueCLIを使用せずViteを使用。SPAページを制作したくVueを使用。ライフルサック、Composition APIを学習致しましたが実装できず</v-expansion-panel-text>
+                <v-expansion-panel-text>
+                    SPAページを制作したくVueを使用。VueCLIを使用せずViteを使用。ライフルサック、Composition
+                    APIを学習致しましたが実装できず</v-expansion-panel-text>
             </v-expansion-panel>
 
             <v-expansion-panel v-on="{ mouseover: doBar }" value="bar" class="ma-10">
                 <v-expansion-panel-title class="dotabs" expand-icon="mdi-menu-down" color="indigo">
-                    Vuetify3
+                    Vuetify3beta
                 </v-expansion-panel-title>
-                <v-expansion-panel-text>Vuetifyを使用。transitionなどのアニメーションを実装できず</v-expansion-panel-text>
+                <v-expansion-panel-text>v-on,v-modelを使用してホバー時の動きを追加。Flexなどが上手く使用できなかった。transitionなどのアニメーションを実装できず</v-expansion-panel-text>
             </v-expansion-panel>
 
             <v-expansion-panel v-on="{ mouseover: doBaz }" value="baz" class="ma-10">
                 <v-expansion-panel-title class="dotabs" expand-icon="mdi-menu-down" color="indigo">
                     VueRouer
                 </v-expansion-panel-title>
-                <v-expansion-panel-text></v-expansion-panel-text>
+                <v-expansion-panel-text>
+                    navigationの部分のrouterlinkはv-bindのlink:toを使用して下線を排除。サイト表示時のTopページ画面を作成してMainページに移行するサイトにしたかったが断念
+                </v-expansion-panel-text>
+            </v-expansion-panel>
+
+
+            <v-expansion-panel v-on="{ mouseover: doHoo }" value="hoo" class="ma-10">
+                <v-expansion-panel-title class="dotabs" expand-icon="mdi-menu-down" color="indigo">
+                    Firebase
+                </v-expansion-panel-title>
+                <v-expansion-panel-text>
+                    Hostingのみに使用。ContactページをFirebaseを使用してメールを送信する機能を実装したかったが、かなり難航したため断念
+                </v-expansion-panel-text>
             </v-expansion-panel>
         </v-expansion-panels>
     </div>
@@ -36,8 +50,8 @@
 
 <style>
 .dotabs {
-    font-weight:700;
-    font-size:12em;
+    font-weight: 700;
+    font-size: 12em;
 }
 </style>
 
@@ -63,6 +77,9 @@ export default {
         },
         doBaz() {
             this.panel = ['baz']
+        },
+        doHoo() {
+            this.panel = ['hoo']
         }
     },
 }

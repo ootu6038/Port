@@ -29,10 +29,6 @@ export default {
     VueMain,
     VueFooter
   },
-
-  data: () => ({
-    google: 'https://google.com'
-  }),
 }
 </script>
 

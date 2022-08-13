@@ -29,7 +29,7 @@ export default {
     mdiGithub
   },
   data: () => ({
-    google: 'https://google.com'
+    google: 'https://github.com/ootu6038/Port.git'
   }),
 }
 </script>
